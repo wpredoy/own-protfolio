@@ -1,0 +1,48 @@
+.hireButtonStyle {
+    color: white;
+    background-color: #111430;
+    border: none;
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.hireButtonStyle:focus {
+    outline: none;
+}
+.brandStyle {
+    color: #111430;
+    font-weight: bold;
+    font-size: 48px;
+}
+.headerText {
+    color: #000000;
+    font-size: 16px;
+    margin: 25px 0;
+    animation: colorchangeheader 1s infinite;
+}
+@keyframes colorchangeheader {
+	0%{color:#ffc13b;}
+	25%{color: #bf55ec;}
+	50%{color: #1e3d59;}
+	100%{color: #ff6e40;}
+}
+@media only screen and (min-width: 600px){
+    .col-md-4{
+        width: 100%;
+        text-align: center;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 400px){
+    .col-md-4{
+        width: 100%;
+        text-align: center;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    
+}

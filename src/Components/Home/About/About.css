@@ -1,0 +1,26 @@
+.about-img_container {
+    position: relative;
+    z-index: 1;
+}
+.about-img_container:before {
+    content: '';
+    position: absolute;
+    top: -24px;
+    left: -1.7rem;
+    width: 398px;
+    height: 504px;
+    outline: 0.5rem solid #355C7D;
+    z-index: -1;
+    transition: all 1s linear;
+}
+.about-img_container:hover:before {
+    top: 0;
+    left: 0;
+}
+.about {
+    background-color: #f6f6f6;
+    position: relative;
+}
+.about h2 {
+    font-weight: bold;
+}
