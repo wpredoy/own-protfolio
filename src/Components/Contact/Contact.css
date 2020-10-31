@@ -1,0 +1,20 @@
+.formStyle {
+    place-items: center;
+    padding-top: 50px;
+}
+.colorStyle {
+    background-color: #f6f6f6;
+    height: 100vh;
+}
+.buttonStyle {
+    background-color: #dde1e7;
+    border: none;
+    border: 1px solid black;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+}
+.buttonStyle:focus {
+    outline: none;
+}

@@ -21,6 +21,9 @@
     margin: 25px 0;
     animation: colorchangeheader 1s infinite;
 }
+.imageStyle {
+    padding-left: 60px;
+}
 @keyframes colorchangeheader {
 	0%{color:#ffc13b;}
 	25%{color: #bf55ec;}

@@ -1,0 +1,27 @@
+.card {
+    height: 550px;
+    width: 360px;
+    background-color: #C3CED6;
+    padding: 10px;
+    transition: 1s;
+}
+.card:hover {
+    cursor: pointer;
+    transform: skewX(7deg);
+}
+.card-title {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text {
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+}
+.card img {
+    height: 280px;
+}
+.allPortfolioStyle {
+    margin-top: 50px;;
+}

@@ -1,7 +1,8 @@
 import React from 'react';
 import './HeaderMain.css';
 import cvDownload from '../../../image/motiur.pdf';
-import mainHeader from '../../../image/header.webp'
+// import mainHeader from '../../../image/header.webp'
+import mainHeader from '../../../image/about1.png';
 
 const HeaderMain = () => {
     return (
@@ -14,7 +15,7 @@ const HeaderMain = () => {
                     <button className="hireButtonStyle">Download CV</button>
                 </a>
             </div>
-            <div className="col-md-6 ">
+            <div className="col-md-6 imageStyle">
                 <img src={mainHeader} alt="" className="img-fluid"/>
             </div>
         </main>

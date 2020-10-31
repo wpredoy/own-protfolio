@@ -3,10 +3,10 @@ import FooterCol from '../FooterCol/FooterCol';
 
 const Footer = () => {
     const noNamed = [
-        {name: 'Emergency Website Create', link: '/emergency'},
+        {name: 'Emergency Website Create', link: '/contact'},
         {name: 'Service', link: '/Service'},
-        {name: "Personal Diseases" , link: "/Personal-Diseases"},
-        {name: "Visit Profile" , link: "/Visit-Profile"}
+        {name: "Personal Discuss" , link: "/Personal-Discuss"},
+        {name: "Visit Profile" , link: "/portfolio"}
 
     ]
     const ourAddress = [
@@ -15,20 +15,18 @@ const Footer = () => {
 
     ]
     const emergency = [
-        {name: 'Emergency Website Create', link: '/emergency'},
+        {name: 'Emergency Website Create', link: '/contact'},
         {name: 'Service', link: '/Service'},
-        {name: "Personal Diseases" , link: "/Personal-Diseases"},
-        {name: "Visit Profile" , link: "/Visit-Profile"}
+        {name: "Personal Discuss" , link: "/Personal-Discuss"},
+        {name: "Visit Profile" , link: "/portfolio"}
 
     ]
     const services = [
-        {name: "Emergency Dental Care" , link: "/emergency"},
-        {name: "Check Up" , link: "/checkup"},
-        {name: "Treatment of Personal Diseases" , link: "/personal-treatment"},
-        {name: "Tooth Extraction" , link: "/tooth-extract"},
-        {name: "Service" , link: "/Service"},
-        {name: "Service" , link: "/Service"},
-        {name: "Service" , link: "/Service"}
+        {name: 'Emergency Website Create', link: '/contact'},
+        {name: 'Service', link: '/Service'},
+        {name: "Personal Discuss" , link: "/Personal-Discuss"},
+        {name: "Visit Profile" , link: "/portfolio"}
+        
     ]
     return (
         <footer className='footer-area clear-both'>
